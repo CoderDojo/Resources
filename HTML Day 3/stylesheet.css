@@ -1,0 +1,10 @@
+body{
+	background:white;
+}
+th{
+	border: 1px solid #999;
+	font-size:20px;
+}
+td{
+	border: 2px dashed green;
+}

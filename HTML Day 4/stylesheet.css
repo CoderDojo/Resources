@@ -1,0 +1,44 @@
+body{
+	background:white;
+}
+div#smallBox{
+	position: absolute;
+	bottom:30%;
+	right:100px;
+	width:400px;
+	height:100px;
+	background: white;
+	border: 2px solid #124234;
+	overflow: hidden;
+}
+div#smallbox:hover{
+	background:blue;
+	width:700px;
+	height:400px;
+	border: 10px dashed #999;
+	overflow: scroll;
+	z-index: 2;/*z-index might be a bit much to go into at the minute so maybe save it for later*/
+}
+div#mediumbox{
+	position: relative;
+	top:20px;
+	left:150px;
+	margin: 20px;
+	width:40px;
+    min-height: 45px;
+   	overflow:hidden;
+	overflow-y:scroll;
+	resize:both;
+	max-width: 700px;
+    max-height: 90px;
+}
+code{
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	filter:alpha(opacity=3);
+}
+code:hover{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=1);
+}
